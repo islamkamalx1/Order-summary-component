@@ -27,6 +27,12 @@ body{
     -o-border-radius: 20px;
     margin-bottom: 25px;
 }
+@media (max-width: 767px) {
+    .card{
+        width: 345px;
+        margin: auto;
+    }
+}
 .image{
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -56,6 +62,12 @@ body{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+@media (max-width: 767px) {
+    .music{
+        margin: 0 0 25px ;
+        width: 280px;
+    }
 }
 .music img{
     height: 45px;
@@ -96,6 +108,11 @@ body{
     margin-bottom: 20px;
     cursor: pointer;
 }
+@media (max-width: 767px)  {
+    .container button:first-of-type{
+        width: 300px;
+    }
+}
 .container button:first-of-type:hover{
     background-color: rgb(118, 108, 241)
 }
@@ -116,6 +133,11 @@ body{
 .attribution{
     font-size: 13px;
     margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .attribution{
+        margin-top: 10px;
+    }
 }
 .attribution a:first-of-type{
     font-weight: 900;
